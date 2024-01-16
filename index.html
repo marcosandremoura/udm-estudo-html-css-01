@@ -1,0 +1,68 @@
+
+
+<!--
+    TAGS
+    * <video> </video>
+    * <audio> </audio>
+    * <figure> </figure> (imagem com legenda)
+    * <figcaption> </figcaption> (legenda da imagem)
+    * <form> </form>
+    * <label> </label>
+    * <input type="text"> 
+    * <input type="submit">
+
+    ATRIBUTOS
+    * controls ( <video> / <audio> )
+    * placeholder ( <input type="text"> )
+    * required ( <input type="text"> )
+-->
+
+
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos do HTML5</title>
+</head>
+
+<body>
+
+    <h1>Recursos do HTML5</h1>
+
+    <div>
+        <video width="320" height="240" controls>
+            <source src="cidade.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div>
+        <audio controls>
+            <source src="music.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div>
+        <figure>
+            <img src="ricefield.jpg" alt="Campo de arroz">
+            <figcaption>Um lindo campo de arroz . . .</figcaption>
+        </figure>
+    </div>
+
+    <div>
+        <h3>Envie seu nome para mais informações.</h3>
+        <form action="">
+            <label for="">E-mail</label>
+            <input type="text" name="email" placeholder="Digite seu melhor e-mail" required>
+            
+            <label for="">Nome completo</label>
+            <input type="text" name="preencha aqui" placeholder="Preencha aqui" required> 
+            <input type="submit" name="enviar">
+        </form>
+    </div>
+
+</body>
+
+</html>
